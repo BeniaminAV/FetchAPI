@@ -5,8 +5,9 @@ const getDadJoke = async () => {
       Accept: "application/json",
     },
   })
-  const getDadData = await response.json()
-  console.log(getDadData)
+
+  const dataDadJoke = await response.json()
+  console.log(dataDadJoke)
 }
 
 getDadJoke()
